@@ -1,0 +1,66 @@
+name: torun
+description: "torun — A fast-paced endless runner game for Android & iOS."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.3
+  audioplayers: ^6.8.1
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  provider: ^6.1.1
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#0D6EFD"
+  adaptive_icon_foreground: "assets/images/logo.png"
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+    background_color: "#0D6EFD"
+    theme_color: "#0D6EFD"
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/images/characters/
+    - assets/images/characters/kenney/
+    - assets/images/characters/kenney/male_person/
+    - assets/images/characters/kenney/female_person/
+    - assets/images/characters/kenney/male_adventurer/
+    - assets/images/characters/kenney/female_adventurer/
+    - assets/images/characters/kenney/robot/
+    - assets/images/characters/kenney/zombie/
+    - assets/images/characters/kenney/platformer/zombie/
+    - assets/images/characters/kenney/platformer/player/
+    - assets/images/characters/kenney/platformer/female/
+    - assets/images/characters/kenney/platformer/adventurer/
+    - assets/images/characters/kenney/platformer/soldier/
+    - assets/images/obstacles/
+    - assets/images/obstacles/platformer/
+    - assets/images/obstacles/nature/
+    - assets/images/obstacles/cactus_platformer/
+    - assets/images/backgrounds/
+    - assets/sounds/
+    - assets/sounds/platformer/
+    
